@@ -11,9 +11,13 @@ var PORT = process.env.PORT || 3000;
 // Sets up the Express app to handle data parsing
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+    app.get("/", function(req, res) {
+        console.log(
+            "gthyju"
+        )
+        res.sendFile(path.join(__dirname, "/public/home.html"))
+    });
 
 app.listen(PORT, function(){
-    app.get("/"), function(req, res) {
-        res.json(path.join(__dirname, "public/home.html"))
-    };
+    console.log(`listening on ${PORT}`)
 });
