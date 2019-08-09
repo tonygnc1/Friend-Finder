@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Survey</title>
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Survey Questions</h1>
+            <hr>
+        </div>
+        <div class="row">
+
+            <div class="col-12">
+
+                <div class="card">
+                    <div class="card-header">
+                        <h4> About You</h4>
+                        <h5>Name (Required)</h5>
+                        <input type="text" id="name" class="form-control">
+                    </div>
+
+                    <div class="card-header">
+                        
+                        <h5>Link to Photo Image (Required)</h5>
+                        <input type="text" id="image" class="form-control">
+                    <div class="card-body">
+                    </div>
+                    <form method="POST" role="form">
+
+                        <h3>Question 1</h3>
+                        <h4>You are a fan of disco music</h4>
+                        <select class="chosen-select" id="q1">
+
+
+                            <option value></option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+
+                        <div class="chosen-drop">
+                            <div class="chosen-search">
+                            <input type="text" autocomplete="off"></div>
+                            
+                            <ul class="chosen-results"></ul>
+                            <li class="active-result" data-option-array-index="1">1</li>
+                            <li class="active-result" data-option-array-index="2">2</li>
+                            <li class="active-result" data-option-array-index="3">3</li>
+                            <li class="active-result" data-option-array-index="4">4</li>
+                            <li class="active-result" data-option-array-index="5">5</li></div>
+
+                        <h3>Question 2</h3>
+                        <h4>You are a fan of AC/DC</h4>
+                        <select class="chosen-select" id="q2">
+
+
+                            <option value></option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+
+                        <div class="chosen-drop">
+                            <div class="chosen-search">
+                            <input type="text" autocomplete="off"></div>
+                            
+                            <ul class="chosen-results"></ul>
+
+                        <h3>Question 3</h3>
+                        <h4>You prefer cloudy days</h4>
+                        <select class="chosen-select" id="q3">
+                            <option value></option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+
+                        <div class="chosen-drop">
+                            <div class="chosen-search">
+                            <input type="text" autocomplete="off"></div>
+                            
+                            <ul class="chosen-results"></ul>
+
+                        <h3>Question 4</h3>
+                        <h4>You prefer the museaum over the movies</h4>
+                        <select class="chosen-select" id="q4">
+                            <option value></option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+
+                        <div class="chosen-drop">
+                            <div class="chosen-search">
+                            <input type="text" autocomplete="off"></div>
+                            
+                            <ul class="chosen-results"></ul>
+
+                        <h3>Question 5</h3>
+                        <h4>You prefer chicken over steak</h4>
+                        <select class="chosen-select" id="q5">
+                            <option value></option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+
+                        <div class="chosen-drop">
+                            <div class="chosen-search">
+                            <input type="text" autocomplete="off"></div>
+                            
+                            <ul class="chosen-results"></ul>
+
+                        <h3>Question 6</h3>
+                        <h4>You are a fan of The Beatles</h4>
+                        <select class="chosen-select" id="q6">
+                            <option value></option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+
+                        <div class="chosen-drop">
+                            <div class="chosen-search">
+                            <input type="text" autocomplete="off"></div>
+                            
+                            <ul class="chosen-results"></ul>
+
+                        <h3>Question 7</h3>
+                        <h4>You prefer sweet wine over beer</h4>
+                        <select class="chosen-select" id="q7">
+                            <option value></option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+
+                        <div class="chosen-drop">
+                            <div class="chosen-search">
+                            <input type="text" autocomplete="off"></div>
+                            
+                            <ul class="chosen-results"></ul>
+
+                        <h3>Question 8</h3>
+                        <h4>You prefer automatic over manual drive</h4>
+                        <select class="chosen-select" id="q8">
+                            <option value></option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+
+                        <div class="chosen-drop">
+                            <div class="chosen-search">
+                            <input type="text" autocomplete="off"></div>
+                            
+                            <ul class="chosen-results"></ul>
+
+                        <h3>Question 9</h3>
+                        <h4>You are a fan of horror movies</h4>
+                        <select class="chosen-select" id="q9">
+                            <option value></option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+
+                        <div class="chosen-drop">
+                            <div class="chosen-search">
+                            <input type="text" autocomplete="off"></div>
+                            
+                            <ul class="chosen-results"></ul>
+
+                        <h3>Question 10</h3>
+                        <h4>You wish you were single</h4>
+                        <select class="chosen-select" id="q10">
+                            <option value></option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+
+                        <div class="chosen-drop">
+                            <div class="chosen-search">
+                            <input type="text" autocomplete="off"></div>
+                            
+                            <ul class="chosen-results"></ul>
+
+                            <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+                    </form>
+                    <br>
+
+
+
+                    <!-- <div class="text-center"> -->
+                    <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit">
+                        <i class="fa fa-fire">Submit</i></button> <br>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    </div>
+
+    <script type="text/javascript">
+        // Question: What does this code do?
+        $("#add-btn").on("click", function (event) {
+            event.preventDefault();
+            var newCharacter = {
+                name: $("#name").val().trim(),
+                role: $("#role").val().trim(),
+                age: $("#age").val().trim(),
+                forcePoints: $("#force-points").val().trim()
+            };
+
+            // Question: What does this code do??
+            $.post("/api/characters", newCharacter)
+                .then(function (data) {
+                    console.log("add.html", data);
+                    alert("Adding character...");
+                });
+
+
+
+            function update_price(e) {
+                var price = 0;
+                $('option:selected', $(e)).each(function () {
+
+                    price += $(this).data('hidden');
+
+                });
+                $('#hidden').val(price);
+                console.log(price);
+            }
+            
+    
+
+    });
+    </script>
+
+</body>
+
+</html>
