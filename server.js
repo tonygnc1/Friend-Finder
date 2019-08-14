@@ -15,9 +15,14 @@ app.use(express.json());
         console.log(
             "gthyju"
         )
-        res.sendFile(path.join(__dirname, "/public/home.html"))
+        res.sendFile(path.join(__dirname, "./public/home.html"))
     });
-
+    app.get("/survey", function(req, res) {
+        console.log(
+            "gthyju"
+        )
+        res.sendFile(path.join(__dirname, "./public/survey.html"))
+    });
 app.listen(PORT, function(){
     console.log(`listening on ${PORT}`)
 });
