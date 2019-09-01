@@ -7,7 +7,7 @@ var friends = [
 
     {
         name: "Jim Doe",
-        photo: <img src="./Butthead" />,
+        photo: <img src="./Butthead.png" />,
         scores: [2, 3, 4, 3, 6, 3, 6, 3, 5, 3]
     },
 
